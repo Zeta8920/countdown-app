@@ -132,7 +132,7 @@ export default function CountdownApp() {
               cx="128"
               cy="128"
               r="100"
-              stroke="#FF4C4C"
+              stroke="8A2BE2"
               strokeWidth="12"
               fill="none"
               strokeDasharray={628}
