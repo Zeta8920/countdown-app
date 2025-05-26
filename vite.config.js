@@ -3,10 +3,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+    base: "/countdown-app/",        // ← esto permite que GitHub Pages cargue bien los assets
   plugins: [react()],
-  server: {
-    port: 5173, // 👈 siempre usará este puerto
-    strictPort: true // 👈 si está ocupado, lanza error (no cambia automáticamente)
-  }
+ 
 })
 
