@@ -98,7 +98,7 @@ export default function CountdownApp() {
   // Pantalla final
   if (screen === "done") {
     return (
-      <main className="flex items-center justify-center min-h-screen bg-yellow-400 text-white">
+      <main className="flex items-center justify-center min-h-screen bg-yellow-300 text-white">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Trabajo finalizado</h1>
           <button
@@ -114,7 +114,7 @@ export default function CountdownApp() {
 
   // Vista principal
   return (
-    <main className="flex items-center justify-center min-h-screen bg-yellow-400 text-white px-4">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-yellow-300 text-white">
       <div className="w-full max-w-md mx-auto space-y-8 text-center">
         {/* Header */}
         <div>
